@@ -6501,3 +6501,22 @@ table.hover tr:nth-of-type(even):hover {
     -webkit-animation-delay: 700ms !important;
     animation-delay: 700ms !important;
 }
+
+.header-row {
+    width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.col-3 {
+  flex: 0 0 25%;
+}
+
+.col-6 {
+  flex: 0 0 50%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
